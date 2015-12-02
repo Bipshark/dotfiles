@@ -9,6 +9,7 @@
 (setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
 ;; (setq scroll-step 1) ;; keyboard scroll one line at a time
 
+(global-linum-mode 1)
 (require 'evil)
 (evil-mode 1)
 (tool-bar-mode -1)
